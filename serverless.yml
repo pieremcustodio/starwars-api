@@ -2,7 +2,6 @@
 service: starwars-api
 frameworkVersion: '3'
 plugins:
-  - serverless-auto-swagger
   - serverless-dynamodb-local
   - serverless-offline
 provider:
